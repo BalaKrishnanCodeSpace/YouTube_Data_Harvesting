@@ -20,10 +20,6 @@
 
 
 
-
-![Intro GUI](https://github.com/Gopinathalpha7/YouTube_Data_Harvesting_and_Warehousing./blob/88b80dca65246a606d9495deddad95202c685430/youtube%20data%20harvesting%20gui.png)
-
-
 ## Developer Guide 
 
 ### 1. Tools Install
@@ -111,10 +107,3 @@
 #### Step 3. Channel Data Analysis zone
 
 * **Select a Question** from the dropdown option you can get the **results in Dataframe format or bar chat format**.
-
-
-## Video link
-
-* Click the below Image
-
-[![Intro GUI](https://github.com/Gopinathalpha7/YouTube_Data_Harvesting_and_Warehousing./blob/88b80dca65246a606d9495deddad95202c685430/youtube%20data%20harvesting%20gui.png)](https://www.linkedin.com/feed/update/urn:li:activity:7065793132247871488/)
