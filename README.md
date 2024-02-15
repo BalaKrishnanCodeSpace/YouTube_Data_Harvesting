@@ -10,10 +10,9 @@
 
 - [Overview](#overview)
 - [Developer Guide](#developer-guide)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [User Guide](#user-guide)
+- [Conclusion](#conclusion)
+
 </br>
 
 # Overview
