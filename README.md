@@ -117,37 +117,22 @@ c) **Visualization**
    - Utilize Streamlit to create a Dashboard with dropdown options for user selection. Analyze selected data and display results in DataFrame Table and Bar chart formats.
 
 
+
 ## User Guide
+<p>To effectively utilize the YouTube Data Harvesting and Warehousing system, follow these steps:
 
-**Step 1. Data Collection Zone**
+1. **Data Collection Zone**
+   - Input the channel ID into the designated field.
+   - Click the "Get data and stored" button to retrieve and store channel data.
 
-- Enter the channel ID in the input box and click the "Get data and stored" button to retrieve and store channel data.
+2. **Data Migration Zone**
+   - Choose the channel name from the provided options.
+   - Select the "Migrate to MySQL" button to transfer channel data from MongoDB to MySQL.
 
-**Step 2. Data Migrate Zone**
-- Select the channel name and click the "Migrate to MySQL" button to migrate channel data from MongoDB to MySQL.
-
-**Step 3. Channel Data Analysis Zone**
-- Choose a question from the dropdown menu to analyze data and view results in DataFrame format or Bar chart format.
-
-
-
-
-
+3. **Channel Data Analysis Zone**
+   - Utilize the dropdown menu to select a specific analysis question.
+   - View and analyze data results in either DataFrame or Bar chart formats.
 
 
-## Features
-
-- **Data Scraping**: Retrieve data from one or more YouTube channels using the YouTube Data API.
-- **Data Storage**: Store the scraped data in a MongoDB database for temporary storage.
-- **Data Migration**: Transfer the data from MongoDB to a MySQL database for long-term storage.
-- **SQL Queries**: Perform various SQL queries on the MySQL database to extract insights from the data.
-- **Streamlit Web Interface**: Access the application through a user-friendly Streamlit web interface.
-
-## Installation
-
-To run the application locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your_username/youtube-data-scraping.git
+## Conclusion
+>The YouTube Data Harvesting and Warehousing project provides a powerful solution for analyzing YouTube channel data efficiently. With its integration of advanced technologies and user-friendly interfaces, this project enables users to derive valuable insights from YouTube data for various purposes including business analytics, content creation strategies, and market research.
