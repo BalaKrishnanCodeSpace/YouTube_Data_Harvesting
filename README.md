@@ -75,9 +75,6 @@ pip install plotly
 # YouTube API libraries
 from googleapiclient.discovery import build
 
-# File handling libraries
-import re
-
 # MongoDB
 import pymongo
 
