@@ -36,11 +36,10 @@
 ## 5. Data Visualization
 
 >Streamlit's advanced data visualization features are utilized to present retrieved data in an insightful and visually appealing manner. Interactive charts and graphs empower users to derive actionable insights from the data.
+<br>
+<br>
 
-
-
-
-# Developer Guide
+# Developer Guide  
 
 ## 1. Tools Installation
 * Virtual code environment
@@ -94,7 +93,14 @@ import pandas as pd
 import streamlit as st
 ```
 
+## 4. ETL Process
 
+#### a) Extract Data
+Extract specific YouTube channel data using the YouTube channel ID with the YouTube API.
+#### b) Process and Transform Data
+Transform extracted data into JSON format after extraction for further processing.
+#### c) Load Data
+Store JSON formatted data into the MongoDB database. Optionally, migrate data from MongoDB to MySQL database
 
 
 
