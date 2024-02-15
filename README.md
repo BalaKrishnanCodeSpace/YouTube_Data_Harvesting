@@ -42,12 +42,12 @@
 # Developer Guide  
 
 ## 1. Tools Installation
-* Virtual code environment
-* Visual Studio Code (or other IDE's)
-* Python 3.11.0 or higher
-* MySQL
-* MongoDB
-* YouTube API key
+   * Virtual code environment
+   * Visual Studio Code (or other IDE's)
+   * Python 3.11.0 or higher
+   * MySQL
+   * MongoDB
+   * YouTube API key
 
 ## 2. Required Libraries Installation in Visual Studio Code
 ```python
@@ -95,12 +95,40 @@ import streamlit as st
 
 ## 4. ETL Process
 
-#### a) Extract Data
-Extract specific YouTube channel data using the YouTube channel ID with the YouTube API.
-#### b) Process and Transform Data
-Transform extracted data into JSON format after extraction for further processing.
-#### c) Load Data
-Store JSON formatted data into the MongoDB database. Optionally, migrate data from MongoDB to MySQL database
+a) **Extract Data**
+   - Extract specific YouTube channel data using the YouTube channel ID with the YouTube API.
+
+b) **Process and Transform Data**
+   - Transform extracted data into JSON format after extraction for further processing.
+
+c) **Load Data**
+   - Store JSON formatted data into the MongoDB database. Optionally, migrate data from MongoDB to MySQL database
+
+
+## 5. EDA Process and Framework
+
+a) **Access MySQL DB**
+   - Establish connection to the MySQL server and access specified MySQL Database using pymysql library.
+
+b) **Filter Data**
+   - Filter and process collected data from tables based on specified requirements using SQL queries. Transform processed data into DataFrame format.
+
+c) **Visualization**
+   - Utilize Streamlit to create a Dashboard with dropdown options for user selection. Analyze selected data and display results in DataFrame Table and Bar chart formats.
+
+
+## User Guide
+
+**Step 1. Data Collection Zone**
+
+- Enter the channel ID in the input box and click the "Get data and stored" button to retrieve and store channel data.
+
+**Step 2. Data Migrate Zone**
+- Select the channel name and click the "Migrate to MySQL" button to migrate channel data from MongoDB to MySQL.
+
+**Step 3. Channel Data Analysis Zone**
+- Choose a question from the dropdown menu to analyze data and view results in DataFrame format or Bar chart format.
+
 
 
 
